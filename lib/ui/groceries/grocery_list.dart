@@ -62,11 +62,11 @@ class _GroceryListState extends State<GroceryList> {
         items: const [
           BottomNavigationBarItem(
             icon: Icon(Icons.dynamic_feed),
-            label: 'Progression',
+            label: 'GroceryList',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.people),
-            label: 'Submission',
+            label: 'Search',
           ),
         ],
       ),
